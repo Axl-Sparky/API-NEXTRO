@@ -1,8 +1,8 @@
 services:
   - type: web
-    name: eypz-api
+    name: axl-api
     env: docker
     branch: main
-    repo: https://github.com/akshay-god01/api.git
+    repo: https://github.com/Axl-Sparky/API-NEXTRO.git
     plan: free
     autoDeploy: false
