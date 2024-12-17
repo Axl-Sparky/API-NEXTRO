@@ -9,7 +9,6 @@ from stalking.youtube import download_thumbnail
 from info.weather import get_weather  # Import the weather function
 from info.crypto import get_crypto    # Import the crypto function
 from info.youtube import search_youtube_videos  # Import the YouTube search function
-from stalking.spotify import spotify_bp  # Import the Spotify Blueprint
 import uuid
 
 app = Flask(__name__)
