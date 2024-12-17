@@ -68,9 +68,6 @@ def load_neko_data():
 
 NEKO_DATA = load_neko_data()
 
-# Register Spotify Blueprint
-app.register_blueprint(spotify_bp, url_prefix='/spotify')
-
 # Root route to render index.html
 @app.route('/', methods=['GET'])
 def index():
