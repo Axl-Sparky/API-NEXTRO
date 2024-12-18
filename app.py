@@ -255,5 +255,5 @@ def internal_error(error):
 # Register the Instagram blueprint
 app.register_blueprint(insta_bp)
 
-if __name__ == '__main__':
-    app.run(debug=False)
+# if __name__ == '__main__':
+  #  app.run(debug=False)
