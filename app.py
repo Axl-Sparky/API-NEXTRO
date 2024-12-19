@@ -256,4 +256,4 @@ def internal_error(error):
 app.register_blueprint(insta_bp)
 
 # if __name__ == '__main__':
-   app.run(debug=False)
+   app.run(debug=false)
